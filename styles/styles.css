@@ -1,0 +1,54 @@
+html,body,div,form,fieldset,legend,label{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}th,td{text-align:left;vertical-align:top;}h1,h2,h3,h4,h5,h6,th,td,caption{font-weight:normal;}img{border:0;}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.viewport-header {
+    position: relative;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  h1 {
+    color: aliceblue;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h1 span{
+    display: block;
+    font-size: 10vw;
+  }
+
+  main {
+    width: 80vw;
+    left: 10%;
+    height: 40vh;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.66);
+    color: white;
+    position: relative;
+    padding: 1rem;
+  }
+
+  p{
+    font-family: 'Lato', sans-serif;
+  }
+
+  a{
+    color: inherit;
+    margin:auto;
+  }
